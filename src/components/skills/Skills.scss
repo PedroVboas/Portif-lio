@@ -1,0 +1,50 @@
+.bg{
+    margin: 100px 0px;
+    height: 1000px;
+   
+}
+
+.texto{
+    text-align: center;
+    font-size:80px;
+    padding-top:200px;
+    
+}
+
+.skills-body{
+    border-radius:100px;
+    padding: 100px;
+    margin: 100px 40px ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(16rem, 11rem));
+    gap:12rem;
+    justify-content: center;
+    background-color: #667261;
+}
+
+.card{
+    overflow: hidden;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    margin-top:20px;
+  
+
+   &__imag{
+    background-color: #667261;
+    height:19rem;
+    width:100%;
+    object-fit: cover;
+ }
+
+ &__title{
+    font-size:35px ;
+    text-align: center;
+    padding: 1rem;
+ }
+
+
+}

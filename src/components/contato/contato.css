@@ -1,0 +1,123 @@
+.c{
+    padding-top:200px;
+    height: 100vh;
+    position: relative;
+}
+
+.c-bg{
+   width: 25px;
+   height: 100%;
+   background-color: #667261;
+   border-radius: 2px;
+   position: absolute;
+}
+
+.c-wrapper{
+
+    display: flex;
+}
+
+.c-left{
+    flex: 1;
+}
+
+.c-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-title{
+    padding-top: 25px;
+    font-size: 60px;
+    padding-left: 50px;
+}
+
+.c-info-item{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin: 100px 0px;
+    font-weight: 300;
+    font-size: 19px;
+
+
+}
+
+.c-icon{
+    width: 90px;
+    height: 80px;
+    margin-right: 20px;
+  
+}
+
+.c-desc {
+    font-weight: 300;
+    font-size: 20px;
+    margin: 40px;
+}
+
+.c-duvida{
+    font-size: 22px;
+}
+
+form{
+    margin-bottom: 150px;
+}
+
+input{
+    width: 61%;
+    height: 75px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+textarea{
+    width: 100%;
+}
+
+button{
+    border: none;
+    padding:15px;
+    background-color: #667261;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .c-wrapper{
+     flex-direction: column;
+     padding: 0px 50px;
+    }
+    
+    .c-title{
+        font-size: 30px ;
+    }
+
+    .c-info-item{
+        font-size: 17px;
+        
+        width: 100%;
+    }
+
+    .c-desc{
+        display: none;
+    }
+    .c-bg{
+        height: 165%;
+    }
+
+    .c-icon{
+        width: 70px;
+        height: 60px;
+    }
+
+    .form{
+       display: flex;
+       flex-wrap: wrap;
+    }
+
+    
+ }
